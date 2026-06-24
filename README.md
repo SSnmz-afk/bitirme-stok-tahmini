@@ -34,6 +34,8 @@ pip install -r requirements.txt
 
 ## Çalıştırma
 
+**Gerçek veriyle:**
+
 1. Veri dosyasını `data/gunluk_ml_dataset.csv` olarak koyun
 2. Pipeline'ı başlatın:
 
@@ -41,12 +43,12 @@ pip install -r requirements.txt
 python pipeline.py
 ```
 
-Çıktılar `outputs/senaryo_a/` ve `outputs/senaryo_b/` klasörlerine yazılır.
+**Örnek veriyle hızlı test:**
 
-> Opsiyonel bağımlılıklar (`lightgbm`, `xgboost`, `tensorflow`) kurulu değilse
-> ilgili modeller atlanır, pipeline çalışmaya devam eder.
-
----
+```bash
+cp data/sample_gunluk_ml_dataset.csv data/gunluk_ml_dataset.csv
+python pipeline.py
+```
 
 ## Veri Formatı
 
