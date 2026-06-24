@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Çıktı klasörleri (büyük dosyalar repoya girmemeli)
+ml_talep_tahmini*/
+ml_sonuclar*/
+outputs/
+results/
+
+# ZIP çıktıları
+*.zip
+
+# Model dosyaları
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Veri dosyaları (gizlilik)
+gunluk_ml_dataset.csv
+gunluk_ml_dataset.xlsx
+*.csv
+*.xlsx
+!data/sample_*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+logs/
