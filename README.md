@@ -25,7 +25,7 @@ verisi üzerinde geleneksel tahmin yöntemleri, seyrek talep modelleri ve makine
 ## Kurulum
 
 ```bash
-git clone https://github.com/<kullanici>/bitirme-stok-tahmini.git
+git clone https://github.com/SSnmz-afk/bitirme-stok-tahmini.git
 cd bitirme-stok-tahmini
 pip install -r requirements.txt
 ```
