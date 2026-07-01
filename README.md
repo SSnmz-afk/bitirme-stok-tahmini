@@ -4,6 +4,10 @@ Endüstriyel bir boru bağlantı parçasına (110-90° PN 10 Dirsek) ait günlü
 verisi üzerinde geleneksel tahmin yöntemleri, seyrek talep modelleri ve makine
 öğrenmesi modellerinin karşılaştırmalı analizi.
 
+Serhat Sönmez
+Murat Erkahraman
+İshak Parlak
+
 ---
 
 ## Proje Yapısı
